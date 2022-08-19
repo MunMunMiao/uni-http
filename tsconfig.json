@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators":true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "webpack-env",
+      "@dcloudio/types"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
