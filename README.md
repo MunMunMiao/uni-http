@@ -4,6 +4,8 @@
 
 #### 适用于 Uni app 的 HttpClient
 
+#### [使用文档](https://angular.io/guide/http)
+
 - 支持中间件
 - 上传
 - ...more
